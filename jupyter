@@ -1,0 +1,24 @@
+jupyter:
+-------
+
+It is python notepad web tool which we can run in our local and we can try different python codes, virtualization etc.
+There are many more usage of jupyter tools.
+
+
+
+
+Installation:
+------------
+Use below commands for installation jupyter
+
+pip install notebook
+
+pip install jupyter
+
+
+To open the tool:
+----------------
+
+
+jupyter notebook      - This will run the web server which we can use jupyter notebook
+
