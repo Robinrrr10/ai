@@ -46,6 +46,23 @@ This file will be get saved in the current directory
 All content of the file will be get saved.
 
 
+--------------
+
+
+Shortcut keys
+------------
+Enter = To enter into current selected cell for typing
+Shift + Enter = To run the current cell and move to next
+Ctrl + Enter = To run the current cell and stay on the current cell
+Array(Up/Below) = To move to above or below cell
+Esc + a = To add a new cell above
+Esc + b = To add a new cell below
+Esc + press d two times = To delete the current cell
+Esc + j/k  = To move to above or below cell
+Esc + m = To switch the current cell to markdown mode
+Esc + y = To switch the current cell to code mode 
+
+
 
 ------------
 
