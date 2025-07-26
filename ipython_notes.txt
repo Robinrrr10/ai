@@ -1,0 +1,23 @@
+ipython
+-------
+ipython is command line tool for trying some python code. We can try some scripting in ipython.
+
+
+
+Below command is to install ipython
+---
+pip install ipython
+
+
+Below command is to enter into command line mode on ipython
+-----
+ipython
+
+
+Now we can try any python command here
+--
+print("hello world")
+
+Using below command to exit from ipython command line
+---
+exit()
