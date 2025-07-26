@@ -1,0 +1,103 @@
+jupyter:
+-------
+
+It is python notepad web tool which we can run in our local and we can try different python codes, virtualization etc.
+Create documents etc
+There are many more usage of jupyter tools.
+
+
+
+
+Installation:
+------------
+Use below commands for installation jupyter
+
+pip install notebook
+
+pip install jupyter
+
+
+To open the jupyter notebook tool:
+----------------
+
+
+jupyter notebook      - This will run the web server which we can use jupyter notebook
+
+
+This will run as web on local 8888 port
+We can give below in browser and we can start using
+localhost:8888
+
+
+To open new:
+--
+Go to localhost:8888
+Click New and select Python 3 (ipykernal)
+
+This will open in the notebook node
+
+
+Here we can give the code and we can click run button and we can check
+
+
+
+We can also change the type from code to markdown to give any text in the notebook.
+This file will be get saved in the current directory
+All content of the file will be get saved.
+
+
+
+------------
+
+
+jupyter lab
+-----
+jupyter is little higher version with addional things.
+Here we can have multiple notebook in different tab.
+We export in html or pdf etc
+We install extension etc
+
+To install use below command
+pip install jupyterlab         - This will install jupyter lab
+
+
+To launch the jupyter lab use below command
+---
+jupyter lab
+
+This launch jupyter lab
+
+
+
+-----------
+
+We can have code like below and view data virtualization 
+
+-----------
+import numpy as np
+import matplotlib.pyplot as plt
+
+# Generate data using NumPy
+x = np.linspace(0, 2 * np.pi, 100)  # 100 values from 0 to 2π
+y = np.sin(x)  # Compute sine of each x value
+
+# Create the plot
+plt.plot(x, y, label='Sine Wave', color='blue')
+
+# Add labels and title
+plt.title("Sine Wave Example")
+plt.xlabel("x (radians)")
+plt.ylabel("sin(x)")
+plt.legend()
+
+# Show grid and plot
+plt.grid(True)
+plt.show()
+
+
+-----------
+
+
+
+
+
