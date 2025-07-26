@@ -97,6 +97,18 @@ plt.show()
 
 -----------
 
+Cloud:
+-----
+There are few cloud platform which gives similar to jupyter.
+Those are below 2
+google colab
+Kaggle
+
+
+-------
+
+
+
 
 
 
