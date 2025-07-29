@@ -164,11 +164,51 @@ df['newColumnName'] = values   # This is used to create column with value
 
 df['mycolumn'] =df['MyNew column'] = df['Total day calls'] + df['Total day charge']          # This will add these two columns and add in new column
 
+
+
+Updating
+------------
+
 To give same value give below
 df['mycolumn'] = 100   # This will update all column value as 100
 
+df[rowIndex, columIndex] = valueToUpdate    # This is to update on specific cell (in given row in given column)
+Eg:
+df[2, 5] = 56                 # At two index 2, it updated on the column index 5
+
+df[3, -1] = 'Hi'             # Negative is to give from reverse, here in 3rd index, it update on the last column with value Hi
 
 
+--------
+
+Apply
+----
+df['NewColumnName'] = df['ExistingColumn'].apply(lambda x updateValue1 if x==Valuecondition else updateValue2) # This will iterate in each and based on condition it will update it
+Eg:
+df['myNewColumn'] = df['Churn'].apply(lambda x 1 if x==True else 0)     # This will check whether any of the value in churn column matches with Tru or not, if matches it update 1 if not, it will update to 0
+Eg:
+
+----
+
+Output
+----
+df.to_csv("giveFileName.csv")    # This will create a csv file with output or df on the current jupytor notebook directory
+
+df.to_json()    # To give in json format
+
+df.to_html()    # To give in html format
+
+---
+
+Delete
+---
+
+del df     # python code to delete the file
+
+
+
+
+----
 
 
 
