@@ -43,6 +43,17 @@ dictDf = pd.DataFrame.from_dict(dictData)          # This will read the dictiona
 
 
 
+-------------
+
+
+df.columns   # To show all available columns
+
+df.dtypes       # To show datatypes of each columns
+
+df.describe()    # To descible the data. It will show count, min, max, mean, std, 25%, 50%, 75%. This will show the int and fload types.
+
+df.describe(include='object')   # This will describe object/string types. This will show count, no of uniques, top, freq
+
 
 
 
