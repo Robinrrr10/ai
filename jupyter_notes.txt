@@ -61,7 +61,7 @@ Esc + press d two times = To delete the current cell
 Esc + j/k  = To move to above or below cell
 Esc + m = To switch the current cell to markdown mode
 Esc + y = To switch the current cell to code mode 
-
+Pressing tab key will show autocomplete suggesstion on code. It will show methods or any autocomplete thing
 
 
 ------------
@@ -123,6 +123,11 @@ Kaggle
 
 
 -------
+
+
+Note:
+--
+To autocomplete code, use tab when coding for showing the suggesstion
 
 
 
