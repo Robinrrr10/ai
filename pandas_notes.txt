@@ -92,8 +92,90 @@ Eg:
 df[(df['International plan'] == 'No') & (df['Churn'] == True)]     # Here we are filtering with International plan matching with No and churn matching with True
 
 
+--------
+
+copy
+---
+
+To copy the data frame use below
+newobj = df.copy()        #This is used to copy
 
 
+
+-------------
+
+iloc
+--
+This is used to filter with index (number)
+
+df.iloc[givenIndexOfRow]      # This row with index and show in grid format
+Eg:
+df.iloc[4]                     # IT will show all content and values of 4th row
+
+
+df.iloc[givenIndexOfRow, columNo]    # This will show the value. Here we are row and column number which is a cell
+df.iloc[4, 3]                         # IT will give 4 row of 3 rd column valu
+
+
+df.iloc[startIndex: lengthOrEndIndex]    #This is to show the range of rows
+Eg:
+df.iloc[10: 15]                          # THiswill rows from 10 to 15
+
+
+
+------------
+
+loc
+---
+This is used to filter with string
+To use this we need to set the index for column using below
+
+dfcp.set_index('giveColumnName', inplace=True)
+Eg:
+dfcp = df.copy()
+dfcp.set_index('State', inplace=True)   
+
+now if we view, it will show the index in dark
+
+dfcp.loc('GiveValue')        # Shows matching rows
+Eg:
+dfcp.loc('OK')             # Shows matching data of this
+
+
+-----------
+
+df.isnull().summ()      # This will show number of nulls in each columns
+
+
+Drop / Remove
+---
+
+df.dropna(inplace=True)   # This is to remove rows which has any column value as null
+
+df.drop('columnName', axis=1)   # This is to remove the column
+Eg:
+df.drop('Area code', axis=1)   # This will remve the column Area code
+
+--------
+
+Creating column
+------------
+df['newColumnName'] = values   # This is used to create column with value
+
+df['mycolumn'] =df['MyNew column'] = df['Total day calls'] + df['Total day charge']          # This will add these two columns and add in new column
+
+To give same value give below
+df['mycolumn'] = 100   # This will update all column value as 100
+
+
+
+
+
+
+
+--------------
+
+----------
 
 
 
