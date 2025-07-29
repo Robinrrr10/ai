@@ -1,0 +1,18 @@
+Pandas Notes:
+------------
+
+Tutorial used:
+https://www.youtube.com/watch?v=tRKeLrwfUgU
+
+
+
+--------------
+
+
+Notes:
+----
+Pandas is used in data sceince and AI/Machine learning
+It is used for handing datas
+
+
+
