@@ -14,5 +14,38 @@ Notes:
 Pandas is used in data sceince and AI/Machine learning
 It is used for handing datas
 
+--------------
+
+To install use below command
+pip install pandas
+
+-------------
+
+Create / Read
+-------
+
+import pandas as pd       # this is for importing
+
+df = pd.read_csv("myfile.csv")   # This will read csv file and save in df object
+
+df             # To log df object
+
+df.head()     # This will print first 5 rows
+df.head(10)   # This will print first 10 rows
+df.tail()     # This will print last 5 rows
+df.tail(15)   # This will print last 15 rows
+
+#There are many read funtions available for read, we can read from csv, sql, table, dictionary and many more
+
+dictData = {"mykey1":[11, 42, 63], "mykey2":[78, 14, 89], "mykey3": [45, 23, 61]}          # this is for creating a dictionary in python
+
+dictDf = pd.DataFrame.from_dict(dictData)          # This will read the dictionary
 
 
+
+
+
+
+
+
+--------------
