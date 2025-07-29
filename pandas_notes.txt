@@ -55,6 +55,62 @@ df.describe()    # To descible the data. It will show count, min, max, mean, std
 df.describe(include='object')   # This will describe object/string types. This will show count, no of uniques, top, freq
 
 
+Print columns data
+--------------
+
+df.giveColumnNameHere    # This will give column
+Eg: df.State    
+
+df.giveColumnNameHere.unique()       #This will give unique values of the given column
+Eg:df.State.unique()
+
+
+
+df['givenColumnNameHere']        #This will give column
+Eg:
+df['International Plan']               #This will be helpful when column name has the space
+
+df['givenColumnNameHere'].unique()   #this will give unique value of the given column
+Eg:
+df['International Plan'].unique()   
+
+df['column1Name1', [columnName2]]       # We can get multiple column using this
+Eg:
+df['International Plan', 'State']     # THIs will give column name of Internation plan and state columns
+
+
+Filters:
+-------
+df[df['columnName'] == value]      # This is to filter with required value of the columns
+
+Eg:
+df[df['International Plan'] == 'No']  #This will filter International plan matching with value No
+
+
+df[(df['columnName1'] == value) & (df['columnName2'] == value)]    #This is the way we can give filters of multiple columns
+Eg:
+df[(df['International plan'] == 'No') & (df['Churn'] == True)]     # Here we are filtering with International plan matching with No and churn matching with True
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
