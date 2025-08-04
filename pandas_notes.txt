@@ -210,6 +210,12 @@ del df     # python code to delete the file
 
 ----
 
+Median value
+df.giveColumnName.median()
+
+Eg:
+df.price.median()                 # This will give the median value
+
 
 
 
