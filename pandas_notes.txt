@@ -216,8 +216,14 @@ df.giveColumnName.median()
 Eg:
 df.price.median()                 # This will give the median value
 
+------
 
+Give replace null value
 
+df.columnName.fillna(GiveValueToBeAddedHere)
+
+Eg:
+df.price.fillna(o.o)
 
 --------------
 
