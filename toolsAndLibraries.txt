@@ -1,6 +1,8 @@
 Below tools and libraries helps more on AI/ML development
 ---------------------------
-pandas
+pandas 
 numpy
 metplotlib
 sklearn
+pickle - To save and load model
+joblib - To save and load model
