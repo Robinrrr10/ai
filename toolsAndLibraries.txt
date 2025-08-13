@@ -1,0 +1,6 @@
+Below tools and libraries helps more on AI/ML development
+---------------------------
+pandas
+numpy
+metplotlib
+sklearn
