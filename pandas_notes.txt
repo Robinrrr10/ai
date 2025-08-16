@@ -227,6 +227,26 @@ df.price.fillna(o.o)
 
 --------------
 
+To create new columns as per string values 
+//To create dummies value
+
+dummies = pd.get_dummies(df.columnName)
+
+Eg:
+dummies = pd.get_dummies(df.town)   //For each townname it will create columns. For matching it will set 1 and for not matching it will set 0
+
+
+-------------
+
+To concatinate two columns
+-------
+
+mergedtable = pd.concat([table1Name, table2Name],axis='columnsOrRows')
+
+mergedtable = pd.concat([table1, table2],axis='columns') //This will merge columns of table 1 with table 2 and store in mergedtable
+
+
+
 ----------
 
 
