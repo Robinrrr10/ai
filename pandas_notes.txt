@@ -250,6 +250,17 @@ mergedtable = pd.concat([table1, table2],axis='columns') //This will merge colum
 ----------
 
 
+To drop columns
+---
+
+newtable = table.drop(['headerName', 'headerName'], axis='columns or rows')  
+
+
+mt = tb.drop(['town', 'chennai'], axis='columns')   # Here I have given two column header town and chennai to drop. Those are columns and I have to drop the columns. So have given axis='columns'
+
+
+--------------------
+
 
 
 
