@@ -1,1 +1,7 @@
+Notes:
+--
 
+We have apply function which we can pass the function name as the parameter, it will apply the result in the all objects and give that results
+
+Refer
+https://www.geeksforgeeks.org/python/python-pandas-apply/
