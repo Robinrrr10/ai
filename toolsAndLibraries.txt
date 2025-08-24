@@ -6,3 +6,5 @@ metplotlib
 sklearn
 pickle - To save and load model
 joblib - To save and load model
+
+word2number - This library helps for converting words to number
