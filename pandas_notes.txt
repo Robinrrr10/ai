@@ -183,6 +183,12 @@ df[3, -1] = 'Hi'             # Negative is to give from reverse, here in 3rd ind
 
 Apply
 ----
+Adding other example of apply
+https://www.geeksforgeeks.org/python/python-pandas-apply/
+
+This apply will take the function as the argument and apply all values of the object and returns the series/
+
+
 df['NewColumnName'] = df['ExistingColumn'].apply(lambda x updateValue1 if x==Valuecondition else updateValue2) # This will iterate in each and based on condition it will update it
 Eg:
 df['myNewColumn'] = df['Churn'].apply(lambda x 1 if x==True else 0)     # This will check whether any of the value in churn column matches with Tru or not, if matches it update 1 if not, it will update to 0
