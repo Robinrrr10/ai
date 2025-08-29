@@ -267,7 +267,14 @@ mt = tb.drop(['town', 'chennai'], axis='columns')   # Here I have given two colu
 
 --------------------
 
+shape
+----
+This will give number of rows and columns
+df.shape
 
+This will print number of rows and columns
+
+------------------------
 
 
 
