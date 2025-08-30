@@ -21,3 +21,10 @@ print("hello world")
 Using below command to exit from ipython command line
 ---
 exit()
+
+
+Use below command to show list of attributes and methods availale in the object
+--------
+dir([GiveObjectHere])
+Eg:
+dir(df)
