@@ -3,6 +3,7 @@ Below tools and libraries helps more on AI/ML development
 pandas 
 numpy
 metplotlib
+seaborn   - This is for showing the heatmap along with meplotlib
 sklearn
 pickle - To save and load model
 joblib - To save and load model
