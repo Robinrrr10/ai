@@ -299,7 +299,19 @@ See below document for more details
 
 ------------------------------
 
+crosstab
+---------
+This is used to take count of each values in first column based on second column
 
+pd.crosstab(column1, column2)
+
+Eg:
+pd.crosstab(dep_emp_lef.Department, dep_emp_lef.emp_left)
+This will give count of persons left in each department
+
+Mostly helps when we wanted to deal with count of data based on column
+
+--------------------------------------
 
 
 
