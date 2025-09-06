@@ -278,6 +278,30 @@ This will print number of rows and columns
 
 
 
+plot
+----
+This is used to plot the chart.
+Pandas has this to show in the chart.
+plot internally uses the matplotlib
+
+df.plot()
+
+
+df.plot(kind='bar')
+
+df.plot(kind='line')
+
+There are different kind of chart. We can pass chart type in the kind
+In below document we can find the supporting charts kind
+
+See below document for more details
+
+
+------------------------------
+
+
+
+
 
 
 
