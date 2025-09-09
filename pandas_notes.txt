@@ -42,6 +42,10 @@ dictData = {"mykey1":[11, 42, 63], "mykey2":[78, 14, 89], "mykey3": [45, 23, 61]
 dictDf = pd.DataFrame.from_dict(dictData)          # This will read the dictionary
 
 
+We can also create data from from existing data frame and list of columns
+df = pd.DataFrame(GiveDataFrameHere, columns=GiveDataFrameColumnNamesHere) //No of column nams should match with number of columns available in data frame 
+Eg:
+irisData = pd.DataFrame(iris.data, columns=iris.feature_names)   //Here iris.data has 4 columns with many rows of data. iris.feature_names has only 4 string as rown which will be assigned as the column for irisData) 
 
 -------------
 
