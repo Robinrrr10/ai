@@ -318,9 +318,20 @@ Mostly helps when we wanted to deal with count of data based on column
 --------------------------------------
 
 
+round()
+------
+Used to round off the values
 
+We can off the decimals by calling round() method
 
+df.age[0].round()   //Round first value of age
+df.age.mean().round()   //Get mean value of age and round off
+df.age.round()    //Round all values of age
 
+Eg:
+input.Age = input.Age.fillna(input.Age.mean().round())
+
+-------------------
 
 
 
