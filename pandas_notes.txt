@@ -333,6 +333,15 @@ input.Age = input.Age.fillna(input.Age.mean().round())
 
 -------------------
 
+gray() and matshow()
+-------------------------
+
+plt.gray()   // This is to set the color as gray
+plt.matshow(digits.images[0])           //This is used to show the 2D array as the color coded matrix.For each value it shows the color etc
+
+We can use these to combined and see the gray image of the 2D array values
+
+--------------------
 
 
 
