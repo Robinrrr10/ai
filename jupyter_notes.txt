@@ -112,6 +112,13 @@ plt.grid(True)
 plt.show()
 
 
+----------
+
+Use below to ingore the warning statement in jupyter notebook
+import warnings
+warnings.filterwarnings('ignore')
+
+
 -----------
 
 Cloud:
