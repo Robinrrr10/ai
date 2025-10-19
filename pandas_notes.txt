@@ -343,6 +343,14 @@ We can use these to combined and see the gray image of the 2D array values
 
 --------------------
 
+nunique()
+---------
+
+This will give number of unique values in each columns
+
+df.nunique()
+
+----------------
 
 
 
