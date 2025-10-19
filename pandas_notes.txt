@@ -352,6 +352,53 @@ df.nunique()
 
 ----------------
 
+isna()
+-----
+This is to filter only data which has na or null or none value
+df.isna()
+
+---------
+
+sum()     
+---
+This is to make the sum of the values or the count
+
+df.isna().sum()
+
+This will give sum of null or none values in each columns
+
+
+---------
+
+dropna()
+--------
+
+Below is to drop the rows which has null or none value
+
+df.dropna(inplace=True)
+
+This will remove all the rows which has null or none value
+
+
+------------------
+
+
+-------------
+
+
+
+
+
+
+
+
+
+
+-----------------------
+
+
+
+---------------------
 
 
 
