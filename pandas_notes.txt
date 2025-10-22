@@ -382,6 +382,21 @@ This will remove all the rows which has null or none value
 
 ------------------
 
+keys()
+-----
+This will show all available keys. Similar to dir
+
+df.keys()
+
+
+------------------------------
+
+reshape()
+---------
+Used to reshape based on given 2 D array
+
+digits.data[0].reshape(8, 8) //The 64 values of array will be recreated to 8 X 8 
+
 
 -------------
 
