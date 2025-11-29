@@ -1,0 +1,81 @@
+ML and SK Learn (scikit learn) Notes
+-----------------------------------
+----------------------------------
+
+Intro about this notes:
+----------------------
+This notes has short and sweet notes of ML and sklearn
+
+For complete detailed notes please refer below
+https://github.com/Robinrrr10/machineLearning/blob/main/machineLearningNotes.txt    - This I have written when leanring
+
+
+This ml_and_sk_learn_notes.txt I have written post learning machine learning
+
+
+
+Machine Learning
+----------------
+Machine learning is the technique where we can create a model and train with set of datas and use that for predicting answer
+sklearn is the library in python used for this.
+We can create a model, then train it and use for prediction
+
+
+Regression and Classification
+----------------------------
+
+Machine learning solves two types of problem
+
+1. Regression - For solving numeric values.
+2. Classification - For solving answers for given choice 
+
+Regression::
+This deals with numberic values.
+Its for predicting number values
+Here the answer will be number
+Eg:
+Price of house
+Height of bridge
+length of items
+
+
+
+Classification::
+This deals with given options
+Machine needs to predict answers from the given options
+Here the answer will be one of the given choise
+Eg:
+yes or no
+Low, medium or high
+predicting blood group
+Class A, Class B, Class C, Class D, Class E
+
+
+------------------------------------------------------
+
+There are 3 types of category on machine learning algothirm
+-----------------------------------------------------------
+
+1. Supervised learning: Here we already know the given columns(feature names)
+2. Unsupervised learning: Here we don't know the columns(feature names). we have to find that
+3. Reinforcement learning:
+
+
+
+-------------------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
