@@ -38,6 +38,10 @@ Price of house
 Height of bridge
 length of items
 
+Regression is giving appropriate values as per training
+Meaning giving values or the number for given questions
+
+
 
 
 Classification::
@@ -49,6 +53,15 @@ yes or no
 Low, medium or high
 predicting blood group
 Class A, Class B, Class C, Class D, Class E
+
+Classification is giving correct on given options.
+Meaning finding correct answer from the options. Or choose the correct answer
+
+There are 2 types of classification
+1. Binary classification - Finding the answer form two options. 1. Yes or no 2. True or false etc. This has only two options
+2. Multiclass classification - Finding the answer from multiple optoons 1. Blood group   2, Class A, B, C  3. Grades   4. countries
+
+
 
 
 ------------------------------------------------------
