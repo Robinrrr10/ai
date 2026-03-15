@@ -1,0 +1,5 @@
+Ollama
+------
+Ollama is open source tool design to run the large language models (LLMs) on your local computer.
+So we can use some simple llm model running in the local and we don't want to pay for that as those are simple
+
