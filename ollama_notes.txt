@@ -37,7 +37,19 @@ ollama pull gpt-oss:20b
 Below is one of tiny model
 ollama pull tinyllama
 
+Below is one of the light weight model which we can use in our computer
+Qwen2.5-Coder:7B
 
+We can run the cluade with local model via ollama using below command
+ollama launch claude --model giveModelName
+Eg:
+ollama launch claude --model Qwen2.5-Coder:7B
+
+//This will run claude on given local model.
+Call won't got to the anthropic APIs
+
+Note:
+--
 If we wanted to store the model in different location, use below environment name and any our out path in user and system variable and restart the ollama
 OLLAMA_MODELS
 J:\aifiles\ollamaModels
