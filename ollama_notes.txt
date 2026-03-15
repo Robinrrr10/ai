@@ -3,3 +3,45 @@ Ollama
 Ollama is open source tool design to run the large language models (LLMs) on your local computer.
 So we can use some simple llm model running in the local and we don't want to pay for that as those are simple
 
+Notes:
+-----
+-----
+
+
+To install ollama go to below site
+https://ollama.com/
+
+We can download the install and we can download or we can use the command which is showing for installation
+
+Below is the command for windows. We can run this command on windows powershell
+irm https://ollama.com/install.ps1 | iex
+
+
+Once installed, we can use below command to check whether ollama was working or not
+ollama --version
+
+To view available model, use below command. This will be empty after ollama installation
+ollama ls
+
+Below are some of models which we can use. Models will be in bigger size
+
+Below model is good for coding
+gpt-oss:20b 
+
+Below model is simple and light weight
+glm-4.7-flash
+
+Use below command to download and pull the model
+ollama pull gpt-oss:20b
+
+Below is one of tiny model
+ollama pull tinyllama
+
+
+If we wanted to store the model in different location, use below environment name and any our out path in user and system variable and restart the ollama
+OLLAMA_MODELS
+J:\aifiles\ollamaModels
+
+
+
+
