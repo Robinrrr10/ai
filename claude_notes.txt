@@ -1,0 +1,13 @@
+Claude Notes / Claude code notes
+--------------------------------
+Claude code is the AI powered command line tool created by Anthropic used to analyse, build, edit and debug coding
+This helps for coding by giving prompts.
+This is best tool for AI powered coding 
+
+
+Go to below link and Use recommented commands to quick install
+https://code.claude.com/docs/en/quickstart
+
+For installing in windows, use below command on powershell
+irm https://claude.ai/install.ps1 | iex
+
